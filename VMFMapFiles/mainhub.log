@@ -2769,3 +2769,276 @@ Level flags = 0
 Total triangle count: 8020
 Writing c:\program files (x86)\steam\steamapps\sourcemods\kandidatprojektgame\vmfmapfiles\MainHub.bsp
 12 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\KandidatProjektGame\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\sourcemods\KandidatProjektGame\VMFMapFiles\MainHub.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\kandidatprojektgame\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 42 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\KandidatProjektGame\VMFMapFiles\MainHub.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (243736 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1586 texinfos to 1097
+Reduced 18 texdatas to 18 (480 bytes to 480)
+Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\KandidatProjektGame\VMFMapFiles\MainHub.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\kandidatprojektgame\vmfmapfiles\MainHub.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\kandidatprojektgame\vmfmapfiles\MainHub.prt
+ 711 portalclusters
+2406 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 25598 visible clusters (6.41%)
+Total clusters visible: 399269
+Average clusters visible: 561
+Building PAS...
+Average clusters audible: 711
+visdatasize:130089  compressed from 136512
+writing c:\program files (x86)\steam\steamapps\sourcemods\kandidatprojektgame\vmfmapfiles\MainHub.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\kandidatprojektgame\vmfmapfiles\MainHub.bsp
+3002 faces
+184805 square feet [26611938.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3002 patches before subdivision
+16790 patches after subdivision
+1 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2325449, max 1280
+transfer lists:  17.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(345387, 257617, 136759)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(51199, 30163, 12720)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(10198, 4193, 1424)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2019, 596, 161)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(453, 93, 20)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(103, 15, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(25, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0085 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                684/8192         8208/98304    ( 8.3%) 
+brushsides            4382/65536       35056/524288   ( 6.7%) 
+planes                1192/65536       23840/1310720  ( 1.8%) 
+vertexes              4383/65536       52596/786432   ( 6.7%) 
+nodes                 1416/65536       45312/2097152  ( 2.2%) 
+texinfos              1097/12288       78984/884736   ( 8.9%) 
+texdata                 18/2048          576/65536    ( 0.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3002/65536      168112/3670016  ( 4.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2241/65536      125496/3670016  ( 3.4%) 
+leaves                1418/65536       45376/2097152  ( 2.2%) 
+leaffaces             3431/65536        6862/131072   ( 5.2%) 
+leafbrushes           1068/65536        2136/131072   ( 1.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            23693/512000      94772/2048000  ( 4.6%) 
+edges                13850/256000      55400/1024000  ( 5.4%) 
+LDR worldlights          1/8192           88/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            222/32768        2220/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4041/65536        8082/131072   ( 6.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      442868/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      130089/16777216 ( 0.8%) 
+entdata               [variable]        4375/393216   ( 1.1%) 
+LDR ambient table     1418/65536        5672/262144   ( 2.2%) 
+HDR ambient table     1418/65536        5672/262144   ( 2.2%) 
+LDR leaf ambient      4750/65536      133000/1835008  ( 7.2%) 
+HDR leaf ambient      1418/65536       39704/1835008  ( 2.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1032     ( 0.1%) 
+pakfile               [variable]      105659/0        ( 0.0%) 
+physics               [variable]      243736/4194304  ( 5.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 8688
+Writing c:\program files (x86)\steam\steamapps\sourcemods\kandidatprojektgame\vmfmapfiles\MainHub.bsp
+19 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\KandidatProjektGame\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\sourcemods\KandidatProjektGame\VMFMapFiles\MainHub.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\kandidatprojektgame\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 136 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\KandidatProjektGame\VMFMapFiles\MainHub.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (334169 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1950 texinfos to 1148
+Reduced 26 texdatas to 26 (686 bytes to 686)
+Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\KandidatProjektGame\VMFMapFiles\MainHub.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\kandidatprojektgame\vmfmapfiles\MainHub.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\kandidatprojektgame\vmfmapfiles\MainHub.prt
+ 377 portalclusters
+1096 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 4224 visible clusters (4.55%)
+Total clusters visible: 92831
+Average clusters visible: 246
+Building PAS...
+Average clusters audible: 376
+visdatasize:37202  compressed from 36192
+writing c:\program files (x86)\steam\steamapps\sourcemods\kandidatprojektgame\vmfmapfiles\MainHub.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\kandidatprojektgame\vmfmapfiles\MainHub.bsp
+3165 faces
+213152 square feet [30693918.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3165 patches before subdivision
+21581 patches after subdivision
+1 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2598434, max 916
+transfer lists:  19.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(167752, 152761, 93807)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(19821, 17152, 9299)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2757, 2315, 1138)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(444, 360, 159)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(85, 66, 26)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(19, 14, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(5, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0269 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                941/8192        11292/98304    (11.5%) 
+brushsides            6037/65536       48296/524288   ( 9.2%) 
+planes                1616/65536       32320/1310720  ( 2.5%) 
+vertexes              5564/65536       66768/786432   ( 8.5%) 
+nodes                  812/65536       25984/2097152  ( 1.2%) 
+texinfos              1148/12288       82656/884736   ( 9.3%) 
+texdata                 26/2048          832/65536    ( 1.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3165/65536      177240/3670016  ( 4.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2605/65536      145880/3670016  ( 4.0%) 
+leaves                 814/65536       26048/2097152  ( 1.2%) 
+leaffaces             3627/65536        7254/131072   ( 5.5%) 
+leafbrushes           1355/65536        2710/131072   ( 2.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            27331/512000     109324/2048000  ( 5.3%) 
+edges                18055/256000      72220/1024000  ( 7.1%) 
+LDR worldlights          1/8192           88/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            573/32768        5730/327680   ( 1.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         11619/65536       23238/131072   (17.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      624980/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       37202/16777216 ( 0.2%) 
+entdata               [variable]        4369/393216   ( 1.1%) 
+LDR ambient table      814/65536        3256/262144   ( 1.2%) 
+HDR ambient table      814/65536        3256/262144   ( 1.2%) 
+LDR leaf ambient      2019/65536       56532/1835008  ( 3.1%) 
+HDR leaf ambient       814/65536       22792/1835008  ( 1.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1026     ( 0.1%) 
+pakfile               [variable]      105659/0        ( 0.0%) 
+physics               [variable]      334169/4194304  ( 8.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 10558
+Writing c:\program files (x86)\steam\steamapps\sourcemods\kandidatprojektgame\vmfmapfiles\MainHub.bsp
+20 seconds elapsed
